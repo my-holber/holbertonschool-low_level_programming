@@ -1,11 +1,19 @@
 #include <stdio.h>
-int main() {
-	int i = 1;
+/**
+  * main - Prints some letters of alphabet
+  *
+  * Return: Always (Success)
+  */
+int main(void)
+{
+	char i;
 
-	while (i <= 10) {
-	printf("%d\n", i);
-	++i;
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+
 	}
+	putchar('\n');
+	return (0)
 
-	return 0;
 }
