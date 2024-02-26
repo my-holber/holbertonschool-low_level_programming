@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * _isdigit - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * mul - function that multiplies two integers.
+ * @a: integer.
+ * @b: integer
+ * Return: a * b.
  */
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	
+	return (a * b);
 }
